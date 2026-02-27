@@ -1,0 +1,16 @@
+favorite_foods = ['Liempo', 'Crispy Pata', 'Fried Chicken', 'Steak', 'Bangus']
+
+print("My Favorite Foods =", favorite_foods)
+print("My First Favorite Food =", favorite_foods[0])
+print("My Last Favorite Food =", favorite_foods[4])
+
+add_food = input("\nAdd a new food to the item: ")
+favorite_foods.append(add_food)
+remove_food = input("Remove a food in the item: ")
+favorite_foods.remove(remove_food)
+print("\nMy Updated Favorite Foods =", favorite_foods)
+print("My Updated First Favorite Food =", favorite_foods[0])
+print("My Updated Last Favorite Food =", favorite_foods[4])
+
+foods_tuple = tuple(favorite_foods)
+print("\nMy Finalized Favorite Foods:", foods_tuple)
