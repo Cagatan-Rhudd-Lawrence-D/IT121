@@ -1,0 +1,12 @@
+class Triangle:
+    def __init__(self, a,b,c):
+        self.a = a
+        self.b = b
+        self.c = c
+        pass
+    
+    def calculate_perimeter(self):
+        print("Perimeter of the Triangle =", self.a + self.b + self.c)
+    
+t1 = Triangle(3, 4, 5)
+t1.calculate_perimeter()
